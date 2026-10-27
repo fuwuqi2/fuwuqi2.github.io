@@ -33,25 +33,6 @@
     });
   }
 
-  /* header search: filter visible rows across all listing hosts */
-  function bindSearch() {
-    var input = document.querySelector('.site-search input');
-    if (!input) return;
-    var run = function () {
-      var q = input.value.trim().toLowerCase();
-      document.querySelectorAll('.row').forEach(function (row) {
-        var hay = (row.getAttribute('data-name') || '') + ' ' + row.textContent.toLowerCase();
-        var show = !q || hay.indexOf(q) !== -1;
-        row.style.display = show ? '' : 'none';
-      });
-      var visible = document.querySelectorAll('.row:not([style])');
-      var counter = document.getElementById('search-count');
-      if (counter) counter.textContent = visible.length + ' 条结果';
-    };
-    input.addEventListener('input', run);
-    var hint = document.getElementById('search-count');
-    if (hint) hint.textContent = '试试「阿里云」「备案」「新客」';
-  }
 
   function setYear() {
     document.querySelectorAll('[data-year]').forEach(function (el) {
@@ -78,7 +59,6 @@
 
   document.addEventListener('DOMContentLoaded', function () {
     mountLists();
-    bindSearch();
     setYear();
     markActiveNav();
   });
