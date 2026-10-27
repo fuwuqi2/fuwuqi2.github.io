@@ -1,0 +1,9 @@
+{
+  "name": "fuwuqi2.github.io",
+  "version": "1.0.0",
+  "description": "云服务器优惠导航 · 多站点",
+  "scripts": {
+    "serve": "node serve.js",
+    "start": "node serve.js"
+  }
+}
