@@ -1,0 +1,15 @@
+# FUWUQI2 · 腾讯云专区
+
+> 腾讯云官方优惠入口：国内站、国际站云服务器活动价，WorkBuddy AI 办公工作台。所有链接直达腾讯云官方活动页。
+
+## 入口
+
+- 腾讯云国内站（国内云服务器活动价，新客特惠）：https://curl.qcloud.com/ITnFdvQ9
+- 腾讯云国外站（国际站，海外云资源活动价）：https://curl.qcloud.com/Kholy9gT
+- WorkBuddy 全场景 AI 办公工作台：https://cloud.tencent.com/act/cps/redirect?redirect=6871&cps_key=e1a339fa804f2f1f68cb6f3a74ee7da5&from=console
+
+## 说明
+
+- 国内站面向需备案用户，新客活动价，访问延迟低。
+- 国际站面向海外业务，免备案困扰，开箱即用。
+- WorkBuddy 是 AI 办公工作台，覆盖文档协作与智能提效。

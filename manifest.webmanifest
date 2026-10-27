@@ -1,0 +1,14 @@
+{
+  "name": "FUWUQI2 · 云服务器优惠导航",
+  "short_name": "FUWUQI2",
+  "description": "京东云、腾讯云、阿里云、雨云官方优惠入口导航",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0a0f1d",
+  "theme_color": "#2563eb",
+  "icons": [
+    { "src": "/assets/img/logo.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "lang": "zh-CN"
+}

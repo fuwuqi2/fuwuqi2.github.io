@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# 全站所有页面均允许抓取，无任何屏蔽路径
+Sitemap: https://fuwuqi2.github.io/sitemap.xml

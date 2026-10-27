@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FUWUQI2 · 云服务器优惠更新</title>
+    <link>https://fuwuqi2.github.io/</link>
+    <description>京东云、腾讯云、阿里云、雨云官方优惠入口更新</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 27 Oct 2026 00:00:00 +0800</lastBuildDate>
+    <atom:link href="https://fuwuqi2.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>云服务器优惠导航上线：四家厂商官方入口一站直达</title>
+      <link>https://fuwuqi2.github.io/</link>
+      <description>FUWUQI2 收录腾讯云、阿里云、京东云、雨云官方优惠入口，按厂商分组，免备案、新客特惠、AI 办公工具直达。</description>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0800</pubDate>
+      <guid>https://fuwuqi2.github.io/#launch</guid>
+    </item>
+    <item>
+      <title>雨云免备案服务器：香港 / 美国节点开箱即用</title>
+      <link>https://fuwuqi2.github.io/rainyun/</link>
+      <description>急着上线不想走备案流程？雨云提供香港、美国免备案节点，开箱即用。</description>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0800</pubDate>
+      <guid>https://fuwuqi2.github.io/rainyun/#deal</guid>
+    </item>
+    <item>
+      <title>京东云京美建站 SaaS：3000+ 精美模板搭建企业网站与小程序</title>
+      <link>https://fuwuqi2.github.io/jdcloud/</link>
+      <description>京美建站提供 3000+ 精美模板，企业网站、小程序快速搭建，SaaS 版开箱即用。</description>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0800</pubDate>
+      <guid>https://fuwuqi2.github.io/jdcloud/#deal</guid>
+    </item>
+  </channel>
+</rss>

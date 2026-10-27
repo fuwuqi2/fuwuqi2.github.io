@@ -1,0 +1,51 @@
+# FUWUQI2 · 云服务器优惠导航
+
+> 一站式收录京东云、腾讯云、阿里云、雨云等主流云厂商官方优惠入口，按厂商分组直达。所有链接直达官方活动页，无中间商加价。
+
+## 站点说明
+
+- 本站只做入口导航，不售卖任何服务器。
+- 所有链接直达云厂商官方活动页，请在跳转后确认域名与价格。
+- 每个厂商一个独立专区站点，总站集中引入。
+
+## 站点结构
+
+- 总站（首页）：https://fuwuqi2.github.io/
+- 腾讯云专区：https://fuwuqi2.github.io/tencent/
+- 阿里云专区：https://fuwuqi2.github.io/aliyun/
+- 京东云专区：https://fuwuqi2.github.io/jdcloud/
+- 雨云专区：https://fuwuqi2.github.io/rainyun/
+- 帮助中心：https://fuwuqi2.github.io/help/
+
+## 优惠入口（按厂商）
+
+### 腾讯云
+- 腾讯云国内站：https://fuwuqi2.github.io/tencent/ （国内云服务器活动价，新客特惠）
+- 腾讯云国外站：https://fuwuqi2.github.io/tencent/ （国际站，海外云资源活动价）
+- WorkBuddy AI 办公工作台：https://fuwuqi2.github.io/tencent/ （AI 办公提效工具）
+
+### 阿里云
+- 阿里云新客户：https://fuwuqi2.github.io/aliyun/ （新用户专享新人价）
+- 阿里云 OPC 产品套餐：https://fuwuqi2.github.io/aliyun/ （多产品组合更省）
+
+### 京东云
+- 京东云服务器：https://fuwuqi2.github.io/jdcloud/ （安全稳定，新客特惠）
+- 京东云京美建站 SaaS：https://fuwuqi2.github.io/jdcloud/ （3000+ 模板，企业网站/小程序）
+
+### 雨云
+- 雨云服务器（免备案）：https://fuwuqi2.github.io/rainyun/ （香港、美国节点，开箱即用）
+
+## 帮助文档
+
+- 新手怎么选云服务器：https://fuwuqi2.github.io/help/choose-server/
+- 备案与免备案：https://fuwuqi2.github.io/help/beian/
+- 新客优惠说明：https://fuwuqi2.github.io/help/new-user-deal/
+- 下单流程：https://fuwuqi2.github.io/help/order-flow/
+- 常见问题汇总：https://fuwuqi2.github.io/help/faq/
+
+## 技术说明
+
+- 纯静态站点，无后端、无追踪脚本。
+- 所有页面含 Schema.org 结构化数据、Open Graph、Twitter Card。
+- 站点地图：https://fuwuqi2.github.io/sitemap.xml
+- robots.txt：https://fuwuqi2.github.io/robots.txt

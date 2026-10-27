@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>备案与免备案_国内备案vs海外免备案_怎么选 | FUWUQI2帮助中心</title>
+<meta name="description" content="备案与免备案详解：国内服务器 ICP 备案流程与周期、海外节点免备案方案对比。急着上线、不想备案怎么办，一篇讲清。">
+<meta name="keywords" content="ICP备案,免备案,备案流程,备案周期,香港服务器,海外节点,雨云免备案">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://fuwuqi2.github.io/help/beian/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="备案与免备案 · 国内 vs 海外">
+<meta property="og:description" content="国内备案流程与周期、海外免备案方案对比，一篇讲清。">
+<meta property="og:url" content="https://fuwuqi2.github.io/help/beian/">
+<meta name="ai-index" content="allow">
+<meta name="ai-follow" content="follow">
+<link rel="icon" href="../../assets/img/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../assets/css/tokens.css">
+<link rel="stylesheet" href="../../assets/css/site.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"备案与免备案","description":"国内备案流程与周期、海外免备案方案对比。","inLanguage":"zh-CN","isPartOf":{"@id":"https://fuwuqi2.github.io/#website"}}</script>
+</head>
+<body>
+<a class="skip" href="#main">跳到主要内容</a>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="../../index.html"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="1.5" y="1.5" width="21" height="21" rx="5.5" fill="url(#lg15)"/><path d="M7.6 13.9V10.1h1.8v2.9h1.7V10.1h1.8v3.8H7.6z" fill="#fff"/><path d="M14.9 10.1l2.6 3.8 2.6-3.8h1.7l-3.9 5.7 3.9 6.4h-1.8l-3.4-5.2-3.4 5.2h-1.7l3.9-6.4-3.8-5.7h1.9z" fill="#fff"/><defs><linearGradient id="lg15" x1="2" y1="2" x2="22" y2="22"><stop stop-color="#2563eb"/><stop offset="1" stop-color="#7c3aed"/></linearGradient></defs></svg><span>FUWUQI2<small>帮助中心</small></span></a>
+    <nav class="site-nav" aria-label="主导航">
+      <a href="../../index.html">总站</a>
+      <a href="../../tencent/">腾讯云</a>
+      <a href="../../aliyun/">阿里云</a>
+      <a href="../../jdcloud/">京东云</a>
+      <a href="../../rainyun/">雨云</a>
+      <a href="index.html" aria-current="page">帮助中心</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<nav class="crumb" aria-label="面包屑"><a href="../../index.html">首页</a><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m9 6 6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><a href="index.html">帮助中心</a><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m9 6 6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>备案与免备案</span></nav>
+
+<section class="section">
+  <div class="wrap">
+    <span class="eyebrow">备案指南</span>
+    <h1>备案与免备案</h1>
+    <p class="lead">这是买云服务器前必须想清楚的一件事：你的域名要不要备案。备案决定你选国内节点还是海外节点，影响上线速度和长期成本。这篇把两种方式讲透，并给出「先用免备案验证、再迁国内长期部署」的常见策略。</p>
+
+    <div class="grid cols-2" style="margin-top:30px">
+      <div class="card">
+        <div class="card-icon">🇨🇳</div>
+        <h3 class="card-title">国内节点 + 备案</h3>
+        <p class="card-desc">服务器在国内（内地），域名绑定后需完成 ICP 备案才能正常访问。延迟低、线路稳定，适合面向国内用户的长期业务。</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🌐</div>
+        <h3 class="card-title">海外节点 + 免备案</h3>
+        <p class="card-desc">服务器在香港、美国等境外节点，无需备案，开箱即用。适合急着上线、临时站点、测试环境、面向海外用户。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="wrap">
+    <span class="eyebrow">国内备案</span>
+    <h2>ICP 备案：流程与周期</h2>
+    <p class="lead">ICP 备案是域名解析到国内服务器后，按规定需要完成的手续。未备案的域名绑定国内服务器无法正常访问。</p>
+    <div class="steps" style="margin-top:30px">
+      <div class="step"><h3>提交备案申请</h3><p>在云厂商备案系统提交主体信息、网站信息、域名信息等材料，按提示上传证件。</p></div>
+      <div class="step"><h3>接入商初审</h3><p>云厂商作为接入商对材料做初步审核，有缺漏会退回修改。</p></div>
+      <div class="step"><h3>管局审核</h3><p>材料转交网站所在省通信管理局审核，这是耗时最长的环节。</p></div>
+      <div class="step"><h3>下发备案号</h3><p>审核通过后获得备案号，需在网站底部展示，域名即可正常解析访问。</p></div>
+    </div>
+    <div class="note" style="margin-top:20px">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none"><path d="M12 9v4m0 4h.01M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0Z" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div>备案周期一般 <strong>7–20 个工作日</strong>，各省管局处理速度不同。建议在项目启动阶段就同步启动备案，避免上线时卡在这一步。</div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <span class="eyebrow">对比</span>
+    <h2>备案 vs 免备案，怎么选</h2>
+    <div style="overflow-x:auto">
+      <table class="tbl">
+        <thead><tr><th>维度</th><th>国内节点（备案）</th><th>海外节点（免备案）</th></tr></thead>
+        <tbody>
+          <tr><td>是否需要备案</td><td>需要 ICP 备案</td><td class="yes">无需备案</td></tr>
+          <tr><td>上线速度</td><td>备案后才能访问（7–20 工作日）</td><td class="yes">当天可上线</td></tr>
+          <tr><td>国内访问延迟</td><td class="yes">低，线路稳定</td><td>略高，取决于线路</td></tr>
+          <tr><td>适合场景</td><td>面向国内用户的长期业务</td><td>急着上线 / 海外业务 / 测试</td></tr>
+          <tr><td>长期成本</td><td class="yes">长期更划算</td><td>适合短期 / 验证</td></tr>
+          <tr><td>代表方案</td><td>腾讯云国内站、阿里云、京东云</td><td>腾讯云国际站、雨云</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="wrap">
+    <span class="eyebrow">常见策略</span>
+    <h2>先用免备案验证，再迁国内长期部署</h2>
+    <p class="lead">这是新手最常用的稳妥策略：<strong>先用海外免备案节点快速上线、验证业务方案，确认稳定后再迁到国内节点做长期部署</strong>。好处是兼顾上线速度和长期成本，不会在没验证清楚时就背上备案周期和高配费用。</p>
+    <div class="grid cols-3" style="margin-top:26px">
+      <div class="card"><div class="card-icon">🚀</div><h3 class="card-title">第一步：快速上线</h3><p class="card-desc">用雨云香港/美国免备案节点，当天跑起来，验证业务方案。</p></div>
+      <div class="card"><div class="card-icon">✅</div><h3 class="card-title">第二步：确认稳定</h3><p class="card-desc">跑一段时间确认负载、访问量、稳定性符合预期。</p></div>
+      <div class="card"><div class="card-icon">🏗️</div><h3 class="card-title">第三步：迁国内长期</h3><p class="card-desc">启动备案，迁到国内节点做长期部署，降低延迟和长期成本。</p></div>
+    </div>
+    <div class="btn-row" style="margin-top:24px">
+      <a class="btn btn--primary" href="../../rainyun/">前往雨云免备案</a>
+      <a class="btn btn--light" href="../../tencent/">腾讯云国内站</a>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="wrap">
+    <div class="cta-band">
+      <h2>想清楚备案，就知道该进哪个专区。</h2>
+      <p>要备案走国内节点，不备案走海外。两个方向的专区都已整理好。</p>
+      <div class="btn-row">
+        <a class="btn btn--primary" href="../../tencent/">腾讯云专区</a>
+        <a class="btn btn--ghost" href="../../rainyun/">雨云专区</a>
+        <a class="btn btn--ghost" href="../choose-server/">看选购指南</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand"><div class="brand"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="1.5" y="1.5" width="21" height="21" rx="5.5" fill="url(#lg16)"/><path d="M7.6 13.9V10.1h1.8v2.9h1.7V10.1h1.8v3.8H7.6z" fill="#fff"/><path d="M14.9 10.1l2.6 3.8 2.6-3.8h1.7l-3.9 5.7 3.9 6.4h-1.8l-3.4-5.2-3.4 5.2h-1.7l3.9-6.4-3.8-5.7h1.9z" fill="#fff"/><defs><linearGradient id="lg16" x1="2" y1="2" x2="22" y2="22"><stop stop-color="#2563eb"/><stop offset="1" stop-color="#7c3aed"/></linearGradient></defs></svg><span style="color:#fff">FUWUQI2<small style="display:block">帮助中心</small></span></div><p>云服务器入门的常见疑问一站解答。本站只做入口导航，不售卖服务器。</p></div>
+      <div class="footer-col"><h4>帮助主题</h4><a href="../choose-server/">怎么选云服务器</a><a href="../beian/">备案与免备案</a><a href="../new-user-deal/">新客优惠说明</a><a href="../order-flow/">下单流程</a></div>
+      <div class="footer-col"><h4>云厂商专区</h4><a href="../../tencent/">腾讯云专区</a><a href="../../aliyun/">阿里云专区</a><a href="../../jdcloud/">京东云专区</a><a href="../../rainyun/">雨云专区</a></div>
+      <div class="footer-col"><h4>站点</h4><a href="../../index.html">首页</a><a href="../sitemap.html">站点地图</a><a href="../faq/">常见问题汇总</a></div>
+    </div>
+    <div class="footer-bottom"><span>© <span data-year>2026</span> FUWUQI2 · 帮助中心 · 仅供入口导航</span><span>本站不售卖服务器，所有交易在云厂商官方完成</span></div>
+  </div>
+</footer>
+<script src="../../assets/js/site.js"></script>
+</body>
+</html>
